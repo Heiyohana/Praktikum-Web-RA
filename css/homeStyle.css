@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    font-size: 35px;
+    width: auto;
+    height: auto;
+    display:flex;
+    align-items:center; /*Ini untuk membuat teks rata tengah dari margin atas dan bawah*/
+    background-size: 100%;
+    color: black;
+}
+
+header a{
+    text-align: center;
+    justify-content: center;
+}
+
+header img{
+    height: auto;
+    width: 200px;
+    justify-content: center;
+    padding: 10px;  
+}
+
+nav{
+    background-color: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    display: inline-block; 
+    text-decoration: none; /*Untuk menghapus underline dari link pada .navbar*/
+    cursor : pointer;
+    padding: 20px 50px; /*Untuk mengatur jarak antar navigasi pada 1 bar*/
+    color: rgb(218, 116, 0); /*Mewarnai */
+}
+
+.navbar a:hover {
+    background-color: #ffb326;
+    color: white;
+}
+
+.body{
+    display:flex;
+    height: 100%;
+    width: auto;
+    background-color: rgb(255, 247, 172);
+}
+
+.body img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body h2{
+    padding-top: 20px;
+}
+
+.body table{
+    border-color: none;
+    align-content: center;
+}
+
+p.awal{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.biodata{
+    height: auto;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.biodata a{
+    text-decoration: none;
+    color: black;
+}
+
+.biodata table{
+    margin-left: auto; /*Untuk membuat tabel berada ditengah*/
+    margin-right: auto; /*Untuk membuat tabel berada ditengah*/
+}
+
+.biodata a:hover{
+    background-color: #ffb326;
+    color: black;
+}
+
+.KontenBerita{
+    background-color: #ffb326;
+    height: auto;
+    width: 50%;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.KontenBerita img{
+    width: 250px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.KontenBerita h1 {
+    padding-top: 10px;
+    text-align: center;
+}
+.KontenBerita a{
+    text-decoration: none;
+    color: black;
+}
+
+.KontenBerita a:hover {
+    background-color:#ffb326;
+    color: white;
+}
+
+.footer{
+    justify-content: center;
+    color : rgb(75, 21, 0);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 23px;
+    background-image: url(../asset/orange\ header.jpg);
+    bottom: 0px;
+    position:relative;
+}
+
+.footer a {
+    color : rgb(75, 21, 0);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a:hover{
+    color: black;
+    background-color: burlywood;
+}
