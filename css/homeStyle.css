@@ -16,12 +16,6 @@ header{
     display:flex;
     align-items:center; /*Ini untuk membuat teks rata tengah dari margin atas dan bawah*/
     background-size: 100%;
-    color: black;
-}
-
-header a{
-    text-align: center;
-    justify-content: center;
 }
 
 header img{
@@ -57,14 +51,17 @@ nav{
     height: 100%;
     width: auto;
     background-color: rgb(255, 247, 172);
+    padding-left: 20px;
 }
 
 .body img{
-    padding-top: 10px;
-    padding-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.body p{
+    text-align: justify;
 }
 
 .body h2{
@@ -78,8 +75,6 @@ nav{
 
 p.awal{
     padding-right: 20px;
-    padding-left: 20px;
-    text-align: justify;
 }
 
 .biodata{
@@ -120,9 +115,9 @@ p.awal{
 
 .KontenBerita img{
     width: 250px;
+    border: white;
     border-width: 5px;
     border-style: solid;
-    border-color: white;
 }
 
 .KontenBerita h1 {
@@ -152,7 +147,7 @@ p.awal{
 }
 
 .footer a {
-    color : rgb(75, 21, 0);
+    color : rgb(75, 21, 0); /*Membuat warna tulisan pada footer*/
     text-decoration: none;
     justify-content: center;
     align-items: center;
